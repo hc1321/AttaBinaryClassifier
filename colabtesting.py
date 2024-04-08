@@ -1,4 +1,13 @@
-# Assuming your test data is in 'finalData/test' and uses the same normalization as training and validation
+
+
+#--------------------------------------------------------------------------
+
+#----------------------- Testing model ----------------------------
+
+#--------------------------------------------------------------------------
+
+
+
 
 test_transforms = transforms.Compose([
     transforms.Resize(256),
